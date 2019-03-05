@@ -37,6 +37,10 @@ namespace FavoriteThings
             SetRating(userRating);
             Review = review;
         }
+        public string Taste()
+        {
+            return "Its spicy and yummy...";
+        }
     }
     enum CuisineType
     {

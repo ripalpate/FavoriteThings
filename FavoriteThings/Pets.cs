@@ -17,6 +17,15 @@ namespace FavoriteThings
             Type = type;
 
         }
+        public string Talk()
+        {
+            return "feed me...!";
+        }
+
+        public string Lick()
+        {
+            return "Tastes like human";
+        }
     }
 
     enum PetType

@@ -34,6 +34,11 @@ namespace FavoriteThings
                 throw new Exception($"Please use year between {MinYear} and {MaxYear}");
             }
         }
+
+        public string Ride()
+        {
+            return "It's smooth ride.....!";
+        }
     }
 
     enum CarType
